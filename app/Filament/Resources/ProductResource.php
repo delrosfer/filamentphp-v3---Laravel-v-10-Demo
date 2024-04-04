@@ -177,6 +177,7 @@ class ProductResource extends Resource
                     ->label('Visivility')
                     ->boolean(),
                 Tables\Columns\TextColumn::make('price')
+                    ->label('Precio')
                     ->sortable()
                     ->toggleable(),
                 Tables\Columns\TextColumn::make('quantity')
