@@ -9,6 +9,8 @@ use Filament\Widgets\TableWidget as BaseWidget;
 
 class LatestOrders extends BaseWidget
 {
+    protected static ?string $heading = 'Últimas Órdenes';
+    
     protected static ?int $sort = 4;
 
     protected int | string | array $columnSpan = 'full';

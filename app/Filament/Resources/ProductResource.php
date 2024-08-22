@@ -15,7 +15,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
-use Filament\Tables\Columns\ImageColumn;
+use Joaopaulolndev\FilamentPdfViewer\Forms\Components\PdfViewerField;
 
 class ProductResource extends Resource
 {
@@ -113,6 +113,7 @@ class ProductResource extends Resource
                                     ])->required()
                     ])->columns(2)
                 ]),
+                
                 Forms\Components\Group::make()
                 ->schema([
                     Forms\Components\Section::make('Status')
