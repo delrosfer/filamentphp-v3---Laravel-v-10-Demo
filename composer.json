@@ -9,6 +9,9 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
+        "bezhansalleh/filament-language-switch": "^3.1",
+        "bezhansalleh/filament-shield": "^3.1",
+        "eightynine/filament-approvals": "^3.1",
         "filament/filament": "^3.0-stable",
         "guzzlehttp/guzzle": "^7.2",
         "joaopaulolndev/filament-pdf-viewer": "^1.0",
